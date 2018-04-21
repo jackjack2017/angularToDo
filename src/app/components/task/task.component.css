@@ -1,0 +1,26 @@
+li{
+	padding: 10px;
+	border: 1px solid grey;
+	margin-bottom: 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+button{
+	border: 1px solid grey;
+	color: red;
+	cursor: pointer;
+}
+
+button:hover{
+	opacity: .5;
+}
+
+.complete{
+	text-decoration: line-through;
+	opacity: .5;
+}

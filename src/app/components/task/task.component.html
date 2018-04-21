@@ -1,0 +1,5 @@
+<li [class.complete]="item.complete"
+    (click)="toggle(item)">
+    {{item.title}}
+    <button (click)="remove(i)">remove</button>
+</li>
